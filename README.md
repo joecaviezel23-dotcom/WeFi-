@@ -1,6 +1,6 @@
 # WeFi Site Recreation
 
-A responsive, static recreation of the public WeFi landing page, built with plain HTML and CSS.
+An independent, responsive recreation of the public WeFi landing page using static HTML and CSS. It is not the official WeFi website.
 
 ## Preview locally
 
@@ -8,6 +8,4 @@ Open `index.html` in a browser or serve this directory with any static file serv
 
 ## Publishing
 
-The `Deploy to GitHub Pages` workflow publishes the site on pushes to `main`. Enable GitHub Pages with **GitHub Actions** as the build and deployment source in the repository settings. The published URL is shown in the workflow deployment summary.
-
-This is an independent visual recreation and is not the official WeFi website.
+The `Deploy to GitHub Pages` workflow publishes the site on pushes to `main` and can also be started manually from the Actions tab. It uses GitHub Actions as the Pages source and requires the repository to allow Pages deployments from Actions.

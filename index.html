@@ -1,205 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WeFi | Financial Infrastructure for the On-chain Economy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeFi | Onchain Financial Infrastructure</title>
     <meta
       name="description"
-      content="Explore a new foundation for digital finance: connected on-chain infrastructure, financial services, and incentives built to work together."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="styles.css" />
+      content="Blockchain financial infrastructure for fintechs and institutions, built on WeChain."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="Styles.ccs">
+    <link rel="stylesheet" href="site.css">
   </head>
   <body>
     <header class="site-header">
       <div class="container nav">
-        <a class="brand" href="#top" aria-label="WeFi home">
-          <span class="brand-mark">W</span>
+        <div class="brand">
+          <div class="brand-mark">W</div>
           <span>WeFi</span>
-        </a>
+        </div>
 
         <nav class="nav-links" aria-label="Main navigation">
-          <a href="#pillars">Infrastructure</a>
-          <a href="#network">Network</a>
-          <a href="#innovation">Use cases</a>
-          <a href="#incentives">Token model</a>
+          <a href="#technology">Technology</a>
+          <a href="#platform">Platform</a>
+          <a href="#ecosystem">Ecosystem</a>
+          <a href="https://gitbook.wefi.co/">Documentation</a>
         </nav>
 
         <div class="nav-actions">
-          <a class="login-link" href="https://wefi.co/">Explore WeFi</a>
-          <a class="button button-primary" href="https://wefi.co/contact">Talk to our team <span class="button-arrow" aria-hidden="true">↗</span></a>
-          <details class="menu">
-            <summary aria-label="Open navigation menu"></summary>
-            <nav class="menu-links" aria-label="Mobile navigation">
-              <a href="#pillars">Infrastructure</a>
-              <a href="#network">Network</a>
-              <a href="#innovation">Use cases</a>
-              <a href="#incentives">Token model</a>
+          <a class="btn btn-primary" href="https://app.wefi.co/">Launch app <span aria-hidden="true">↗</span></a>
+          <details class="mobile-menu">
+            <summary aria-label="Open navigation menu"><span></span><span></span></summary>
+            <nav class="mobile-menu-links" aria-label="Mobile navigation">
+              <a href="#technology">Technology</a>
+              <a href="#platform">Platform</a>
+              <a href="#ecosystem">Ecosystem</a>
+              <a href="https://gitbook.wefi.co/">Documentation</a>
             </nav>
           </details>
         </div>
       </div>
     </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
+    <main>
+      <section class="hero">
         <div class="container hero-grid">
-          <div class="hero-copy reveal">
-            <span class="eyebrow">Financial infrastructure, reimagined</span>
-            <h1 id="hero-title">A new foundation for <em>digital finance.</em></h1>
+          <div class="hero-copy">
+            <span class="eyebrow">Powering Deobanks worldwide</span>
+            <h1>The onchain financial infrastructure.</h1>
             <p>
-              Connect on-chain networks, everyday financial services, and
-              aligned incentives through one interoperable infrastructure layer.
+              Blockchain financial infrastructure for fintechs and institutions.
+              Built on WeChain to make compliant, transparent Deobanks possible.
             </p>
 
-            <div class="hero-actions">
-              <a class="button button-primary" href="#pillars">Explore the infrastructure <span class="button-arrow" aria-hidden="true">↓</span></a>
-              <a class="button button-outline" href="https://wefi.co/contact">Talk to our team <span class="button-arrow" aria-hidden="true">↗</span></a>
+            <div class="cta-row">
+              <a class="btn btn-primary large" href="https://app.wefi.co/">Launch app <span aria-hidden="true">↗</span></a>
+              <a class="btn btn-secondary large" href="https://gitbook.wefi.co/">Explore the technology <span aria-hidden="true">↓</span></a>
             </div>
 
-            <div class="hero-note"><span class="status-dot" aria-hidden="true"></span> Designed for institutions. Built for open finance.</div>
+            <div class="social-proof">
+              <div class="proof-item">
+                <strong>200,000+</strong>
+                <span>Users</span>
+              </div>
+              <div class="proof-item">
+                <strong>$150M+</strong>
+                <span>Monthly volume</span>
+              </div>
+              <div class="proof-item">
+                <strong>153</strong>
+                <span>Jurisdictions</span>
+              </div>
+            </div>
           </div>
 
-          <div class="network-visual reveal reveal-delay" role="img" aria-label="Abstract visualization of a connected financial network">
-            <div class="orbit" aria-hidden="true"></div>
-            <div class="network-core" aria-hidden="true"></div>
-            <span class="network-label label-top">Open network</span>
-            <span class="network-label label-left">Financial services</span>
-            <span class="network-label label-bottom">Aligned incentives</span>
-            <div class="network-panel">
-              <small>Infrastructure layer</small>
-              <strong>Connected by design</strong>
-              <span>One system. Multiple rails.</span>
+          <div class="hero-visual">
+            <div class="card-stack">
+              <div class="dashboard-card card-main">
+                <div class="card-top">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+
+                <div class="balance-wrap">
+                  <span class="balance-label">One connected financial stack</span>
+                  <h3>Built on WeChain</h3>
+                </div>
+
+                <div class="mini-chart">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
+
+                <div class="stats-row">
+                  <div>
+                    <small>Financial rails</small>
+                    <strong>Onchain</strong>
+                  </div>
+                  <div>
+                    <small>Banking layer</small>
+                    <strong>Deobank</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="floating-card">
+                <span class="chip">Network</span>
+                <strong>500,000+</strong>
+                <small>operational nodes</small>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="proof" aria-label="WeFi principles">
-        <div class="container proof-grid">
-          <div class="proof-item"><strong>Infrastructure first</strong><span>Purpose-built foundational technology</span></div>
-          <div class="proof-item"><strong>Open by design</strong><span>Services that work across networks</span></div>
-          <div class="proof-item"><strong>Aligned incentives</strong><span>Participation connected to utility</span></div>
+      <section class="logo-strip">
+        <div class="container">
+          <p>Three layers. One financial infrastructure.</p>
+          <div class="logos">
+            <span>WeChain</span>
+            <span>Deobank</span>
+            <span>Distributed custody</span>
+            <span>WFI token</span>
+            <span>Energy</span>
+          </div>
         </div>
       </section>
 
-      <section id="pillars" class="section" aria-labelledby="pillars-title">
+      <section id="technology" class="features">
         <div class="container">
           <div class="section-heading">
-            <span class="eyebrow">The building blocks</span>
-            <h2 id="pillars-title" class="section-title">Three parts. One financial layer.</h2>
-            <p class="section-intro">WeFi brings network technology, accessible financial services, and a utility-led economy into a coordinated system.</p>
+            <span class="eyebrow">The technology</span>
+            <h2>Three technology pillars work as one.</h2>
           </div>
-          <div class="pillars">
-            <article class="pillar">
-              <span class="pillar-number">01 / NETWORK</span>
-              <div class="pillar-symbol" aria-hidden="true">W</div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">01</div>
               <h3>WeChain</h3>
-              <p>A purpose-built network layer for secure, transparent financial activity and settlement.</p>
+              <p>A financial blockchain designed for fast settlement, native compliance, and fiat connectivity.</p>
             </article>
-            <article class="pillar">
-              <span class="pillar-number">02 / ACCESS</span>
-              <div class="pillar-symbol" aria-hidden="true">↗</div>
+
+            <article class="feature-card">
+              <div class="icon">02</div>
               <h3>Deobank model</h3>
-              <p>A bridge between familiar financial experiences and the flexibility of on-chain services.</p>
+              <p>Onchain banking infrastructure with integrated custody and payment rails for regulated providers.</p>
             </article>
-            <article class="pillar">
-              <span class="pillar-number">03 / PARTICIPATION</span>
-              <div class="pillar-symbol" aria-hidden="true">✳</div>
-              <h3>WFI &amp; energy</h3>
-              <p>A utility and rewards framework designed to connect contribution with network activity.</p>
+
+            <article class="feature-card">
+              <div class="icon">03</div>
+              <h3>Programmable incentives</h3>
+              <p>Token and loyalty mechanics connect participation with utility across the ecosystem.</p>
             </article>
+
           </div>
         </div>
       </section>
 
-      <section id="network" class="section network-section" aria-labelledby="network-title">
-        <div class="container network-band">
-          <div class="network-band-copy">
-            <span class="eyebrow">A connected ecosystem</span>
-            <h2 id="network-title" class="section-title">Built to bring financial services together.</h2>
-            <p>Connect partners, payment pathways, and on-chain capabilities through infrastructure designed for real-world financial use.</p>
-            <a class="button button-outline" href="https://wefi.co/contact">Explore partnership <span class="button-arrow" aria-hidden="true">↗</span></a>
+      <section id="platform" class="split-section">
+        <div class="container split-grid">
+          <div class="split-copy">
+            <span class="eyebrow">The platform</span>
+            <h2>Banking architecture designed for the onchain economy.</h2>
+            <ul>
+              <li>Unified fiat and digital-asset balances</li>
+              <li>Distributed custody and wallet architecture</li>
+              <li>Transparent onchain accounting</li>
+              <li>Designed for regulated financial providers</li>
+            </ul>
           </div>
-          <div class="network-map" role="img" aria-label="Abstract diagram of interconnected financial services">
-            <div class="map-grid" aria-hidden="true"></div>
-            <div class="map-lines" aria-hidden="true"></div>
-            <div class="map-card"><small>Network layer</small><strong>WeFi ecosystem</strong><span>Services connected</span></div>
-          </div>
-        </div>
-      </section>
 
-      <section id="innovation" class="section innovation" aria-labelledby="innovation-title">
-        <div class="container">
-          <div class="section-heading">
-            <span class="eyebrow">Designed for practical use</span>
-            <h2 id="innovation-title" class="section-title">Financial innovation, made interoperable.</h2>
-            <p class="section-intro">A flexible base for providers building the next generation of digital financial products.</p>
-          </div>
-          <div class="innovation-grid">
-            <article class="innovation-item"><span>01</span><h3>On-chain accounts</h3><p>Bring transparent, programmable account experiences into financial products.</p></article>
-            <article class="innovation-item"><span>02</span><h3>Payment pathways</h3><p>Connect digital assets and familiar payment flows across service providers.</p></article>
-            <article class="innovation-item"><span>03</span><h3>Secure coordination</h3><p>Build with coordinated infrastructure and security designed for financial activity.</p></article>
-            <article class="innovation-item"><span>04</span><h3>Provider-ready tools</h3><p>Give institutions a modular foundation to develop and evolve their services.</p></article>
-          </div>
-        </div>
-      </section>
+          <div class="split-panel">
+            <div class="panel-box">
+              <div class="panel-row">
+                <span class="panel-label">Financial blockchain</span>
+                <strong>WeChain</strong>
+              </div>
+              <div class="panel-row">
+                <span class="panel-label">Banking architecture</span>
+                <strong>Deobank</strong>
+              </div>
+              <div class="panel-row">
+                <span class="panel-label">Incentive layer</span>
+                <strong class="positive">WFI + Energy</strong>
+              </div>
 
-      <section id="incentives" class="section" aria-labelledby="incentives-title">
-        <div class="container incentives">
-          <div class="incentive-visual" role="img" aria-label="Four linked stages represent the WFI participation model">
-            <div class="incentive-ring" aria-hidden="true"></div>
-            <span class="incentive-token token-top">WFI</span>
-            <span class="incentive-token token-right">USE</span>
-            <span class="incentive-token token-bottom">ECO</span>
-            <span class="incentive-token token-left">ACT</span>
-          </div>
-          <div class="incentive-copy">
-            <span class="eyebrow">Utility in motion</span>
-            <h2 id="incentives-title" class="section-title">Incentives connected to activity.</h2>
-            <p>WeFi's participation model links ecosystem utility, user activity, and network growth in a reinforcing cycle.</p>
-            <div class="steps">
-              <div class="step"><span>01</span><p>Services create useful ways to participate.</p></div>
-              <div class="step"><span>02</span><p>Participation supports activity across the ecosystem.</p></div>
-              <div class="step"><span>03</span><p>Network utility creates room for new services to grow.</p></div>
+              <div class="progress-wrap">
+                <div class="progress-bar">
+                  <span></span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="cta">
-        <div class="container cta-inner">
+      <section id="incentives" class="incentives">
+        <div class="container incentives-grid">
           <div>
-            <span class="eyebrow">Build what comes next</span>
-            <h2>Let's make finance work better together.</h2>
+            <span class="eyebrow">Built-in incentives</span>
+            <h2>Utility and participation move together.</h2>
+            <p>WFI and Energy connect ecosystem activity with token utility and loyalty rewards.</p>
           </div>
-          <a class="button" href="https://wefi.co/contact">Start a conversation <span class="button-arrow" aria-hidden="true">↗</span></a>
+          <div class="incentive-list">
+            <div><span>$WFI</span><strong>Community-led token economy</strong></div>
+            <div><span>ENERGY</span><strong>Loyalty rewards across the ecosystem</strong></div>
+            <a href="https://gitbook.wefi.co/the-architectures-of-wefi/2.3-the-usdwfi-token-economy">Read tokenomics <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="ecosystem" class="security">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Built for financial innovation</span>
+            <h2>Infrastructure built for real-world finance.</h2>
+          </div>
+
+          <div class="security-grid">
+            <div class="security-card">
+              <h3>Distributed custody</h3>
+              <p>Separate asset ownership from day-to-day operations with multi-party wallet controls.</p>
+            </div>
+            <div class="security-card">
+              <h3>Transparent accounting</h3>
+              <p>Record transactions on a public ledger for clear, verifiable financial activity.</p>
+            </div>
+            <div class="security-card">
+              <h3>Integrated rails</h3>
+              <p>Bring fiat and digital assets together with stable-value balances and settlement.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-banner">
+        <div class="container banner-box">
+          <div>
+            <span class="eyebrow">Build with WeFi</span>
+              <h2>Help shape the next generation of financial services.</h2>
+          </div>
+          <a class="btn btn-primary large" href="https://wefi.co/contact">Contact WeFi <span aria-hidden="true">↗</span></a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <div class="footer-top">
-          <div class="footer-brand">
-            <a class="brand" href="#top" aria-label="WeFi home"><span class="brand-mark">W</span><span>WeFi</span></a>
-            <p>Infrastructure for a more connected financial system.</p>
+    <footer id="about" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand">
+            <div class="brand-mark">W</div>
+            <span>WeFi</span>
           </div>
-          <nav class="footer-links" aria-label="Footer navigation">
-            <a href="#pillars">Infrastructure</a>
-            <a href="#network">Network</a>
-            <a href="#innovation">Use cases</a>
-            <a href="https://wefi.co/contact">Contact</a>
-            <a href="https://x.com/wefi_official" target="_blank" rel="noreferrer">X <span aria-hidden="true">↗</span></a>
-          </nav>
+          <p>Onchain financial infrastructure for fintechs, institutions, and the Deobank network.</p>
         </div>
-        <div class="footer-bottom">
-          <span>© 2026 WeFi. Independent website recreation.</span>
-          <a href="#top">Back to top ↑</a>
+
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="https://wefi.co/about">About</a></li>
+            <li><a href="https://wefi.co/careers">Careers</a></li>
+            <li><a href="https://wefi.co/contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#platform">Platform</a></li>
+            <li><a href="#ecosystem">Ecosystem</a></li>
+            <li><a href="#incentives">Incentives</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="https://gitbook.wefi.co/">Documentation</a></li>
+            <li><a href="https://app.wefi.co/">Launch app</a></li>
+            <li><a href="https://wefi.co/contact">Support</a></li>
+          </ul>
         </div>
       </div>
     </footer>
+
   </body>
 </html>
